@@ -2,6 +2,7 @@
   --offwhite: rgba(242, 242, 242, 1);
   --blue: rgba(159, 198, 201, 1);
   --offgray: rgba(156, 173, 173, 1);
+  --dark: rgba(98, 105, 105, 1);
 }
 body{
   margin:0
@@ -12,7 +13,6 @@ body{
   height: 100vh;
 
 }
-
 .rows {
   display: flex;
   justify-content: space-around;
@@ -20,7 +20,6 @@ body{
   /* height: 6.25vh; */
   border: 0px solid black;
 }
-
 .cols{
   /* display:flex; */
   display:flex;
@@ -30,4 +29,8 @@ body{
   align-items: center;
   width:100%;
   border: 1px dashed var(--blue);
+}
+
+.active{
+  background-color: var(--dark);
 }
